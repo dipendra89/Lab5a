@@ -88,14 +88,14 @@ uncomment the call for the testSumArray() function and see if the test passes.*/
 // Write your code here
 var testArray = [2, 3, 4]; //eslint-disable-line
 function sumArray(sumArr) { //eslint-disable-line
-      var addition = sum(testArray[0], testArray[1])[0];
+      var addition1 = sum(testArray[0], testArray[1])[0];
       // var addition = sum(2, 3)[0];
       // console.log(addition);
-      var addition1 = sum(addition, testArray[2])[0];
+      var addition2 = sum(addition1, testArray[2])[0];
       // var addition1 = sum(addition, testArray[2])[0];
      // console.log(addition1);
-      var string4 = '2,3,4 was passed in as an array of numbers, and ' + addition1 + ' is their sum.';
-      return [addition1, string4];
+      var string4 = '2,3,4 was passed in as an array of numbers, and ' + addition2 + ' is their sum.';
+      return [addition2, string4];
 }
 
 // Here is the test for sumArray(); uncomment it to run it
